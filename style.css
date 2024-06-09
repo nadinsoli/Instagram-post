@@ -1,0 +1,102 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(235, 235, 235);
+    padding: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: rgba(158, 158, 158, 0.597);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#formFile {
+    width: 80%;
+}
+
+.input-group {
+    width: 80%;
+}
+
+.preview img {
+    width: 100%;
+    max-width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.preview p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#error-message {
+    color: red;
+    display: none;
+    width: 400px;
+}
+
+#postForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 100%;
+    max-width: 500px;
+    padding-bottom: 10px;
+}
+
+.post-details {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    background-color: rgba(158, 158, 158, 0.597);
+    padding: 15px 15px;
+    border-radius: 5px;
+    /* font-size: 1.5rem;
+    font-weight: 500; */
+}
+
+#previewDescription {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.like-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.like-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#previewImage {
+    max-width: 1080px;
+    max-height: 1080px;
+}
